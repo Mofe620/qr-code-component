@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Outfit&display=swap');
+
+html {
+    width: 1440px;
+}
+body {
+    display: flex;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    justify-content: center;
+}
+#card {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin-top: 4em;
+    padding: 1em;
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+}
+img {
+    border-radius: 20px;
+}
+h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+p {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+@media (max-width:375px) {
+    html {
+        width: 375px;
+    }
+    #card {
+        justify-self: center;
+        width: 200px;
+    } 
+}
